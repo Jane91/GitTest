@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles/layout.css" media="screen"/>
+</head>
+<body>
+    <h1>Huge Images</h1>
+    <ul id="imagegallery">
+        <li>
+            <a href="images/Xianjian.jpg" onclick="showPic(this); return false;" title="Xianjian display">Xianjian</a>
+        </li>
+        <li>
+            <a href="images/Langyabang.png" onclick="showPic(this); return false;" title="Langyabang display">Langyabang</a>
+        </li>
+        <li>
+            <a href="images/London.jpg" onclick="showPic(this); return false;" title="London display">London</a>
+        </li>
+        <li>
+            <a href="images/Photography.jpeg" onclick="showPic(this); return false;" title="Photography display">Photography</a>
+        </li>
+        <img id="placeholder" src="images/placeholder.jpg" alt="my image gallery" width="800" height="600"/>
+        <p id = "description">Choose an image.</p>
+        <script type="text/javascript" src="scrpits/showPic.js"></script>
+    </ul>
+</body>
+</html>
